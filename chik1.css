@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	background-image: url(back.jpeg);
+	background-size: 1900px 1700px;
+background-repeat: no-repeat;
+
+}
+body{
+	
+	margin: 0;
+	padding: 0;
+}
+.dmenu{
+	margin: 0 auto;
+
+}
+nav{
+	height: 60px;
+	background: #e79702;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+    background: #e79702;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+
+
+
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 15px;
+}
+nav ul li a:hover{
+	background: pink;
+
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+
+
+	
+}
+.wrapper{
+	width: 1400px;
+	margin: 100px auto;
+	background-color:#e79702;
+	border-radius: 40px;
+}
+.title{
+	text-align: center;
+	margin-bottom: 60px;
+	padding-top: 20px;
+}
+.title h4{
+	font-size: 35px;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 20px;
+	color: black;
+	/*border: 2px solid black;
+	border-radius: 4px;*/
+	/*background-color: black;*/
+	padding-top: 10px;
+}
+
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.menu1{
+	flex-basis: 400px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #ddd;
+	margin-left: 30px;
+}
+
+.menu img{
+	max-width: 200px;
+	margin-right: 30px;
+	/*border-radius: 50%;*/
+	border: 1px solid #ddd;
+	padding: 3px;
+}
+
+.menu h4 span{
+	float: right;
+	color: #ff7720;
+	font-style: italic;
+}
+footer{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: auto;
+	background-color: #e79702;
+}
+.left{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.right{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+footer section aside{
+	margin-right: 30px;
+}
+.socialLogo{
+	padding-right: 10px;
+
+}
